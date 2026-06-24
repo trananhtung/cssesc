@@ -1,5 +1,7 @@
 # cssesc
 
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 [![crates.io](https://img.shields.io/crates/v/cssesc.svg)](https://crates.io/crates/cssesc)
 [![docs.rs](https://docs.rs/cssesc/badge.svg)](https://docs.rs/cssesc)
 [![CI](https://github.com/trananhtung/cssesc/actions/workflows/ci.yml/badge.svg)](https://github.com/trananhtung/cssesc/actions/workflows/ci.yml)
@@ -38,6 +40,28 @@ assert_eq!(cssesc_with("1up", &id), "\\31up");
 // Choose quotes and wrap:
 assert_eq!(cssesc_with("hi", &Options::new().quotes(Quotes::Double).wrap(true)), "\"hi\"");
 ```
+
+## Contributors ✨
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome — code, docs, bug reports, ideas, reviews! See the [emoji key](https://allcontributors.org/docs/en/emoji-key) for how each contribution is recognized, and open a PR or issue to get involved.
+
+Thanks goes to these wonderful people:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/trananhtung"><img src="https://avatars.githubusercontent.com/u/30992229?v=4?s=100" width="100px;" alt="Tung Tran"/><br /><sub><b>Tung Tran</b></sub></a><br /><a href="https://github.com/trananhtung/./commits?author=trananhtung" title="Code">💻</a> <a href="#maintenance-trananhtung" title="Maintenance">🚧</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
 
